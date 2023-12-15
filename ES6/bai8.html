@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 8. Sử dụng Rest parameter và Spread operator để tạo một hàm nhận
+    // vào danh sách các số và trả về tổng của chúng.
+    let sum = (...number) => number.reduce((x, y) => x + y)
+    console.log(sum(1, 2, 3));
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 3. Kiểm tra 1 mảng có chứa số V hay không nếu có trả về V không thì trả về "không tìm thấy" (some).
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let number = 5;
+    let checkNumber = numbers.some(x => x === number);
+    if (checkNumber) {
+        console.log(number);
+    } else {
+        console.log("Không tìm thấy")
+    }
+</script>
+</body>
+</html>

@@ -9,11 +9,15 @@
     // 10. Tạo một đối tượng "book" với thuộc tính "title",
     // "author" và "pages" bằng cách sử dụng Enhanced object literals.
     // Đối tượng "book" cũng có phương thức "displayInfo"
-    const title = "Làm giàu không khó";
-    const author = "Thuan";
-    const pages = 24;
-    book = {title, author, pages};
-    console.log(book);
+    const book = {
+        title: "Làm giàu không khó",
+        author: "Thuan",
+        pages: 24,
+        displayInfo() {
+            return "Tên sách: " + this.title + ", Tác giả: " + this.author + ", Trang: " + this.pages;
+        }
+    };
+    console.log(book.displayInfo());
 </script>
 </body>
 </html>

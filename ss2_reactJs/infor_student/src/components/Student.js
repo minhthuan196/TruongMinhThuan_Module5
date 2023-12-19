@@ -1,4 +1,5 @@
 import './student.css';
+
 const students = [
     {
         company: 'Alfreds Futterkiste',
@@ -31,24 +32,30 @@ const students = [
         country: 'Italy'
     }
 ]
-function Student(){
+
+function Student() {
     return (
         <>
             <table>
+                <thead>
                 <tr>
                     <th>Company</th>
                     <th>Contract</th>
                     <th>Country</th>
                 </tr>
-                {students.map(student => (
-                    <tr>
+                </thead>
+                <tbody>
+                {students.map((student, index) => (
+                    <tr key={index}>
                         <td>{student.company}</td>
                         <td>{student.contact}</td>
                         <td>{student.country}</td>
                     </tr>
                 ))}
+                </tbody>
             </table>
         </>
     )
 }
+
 export default Student;

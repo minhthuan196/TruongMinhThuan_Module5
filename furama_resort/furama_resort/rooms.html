@@ -86,8 +86,6 @@
                                 <ul class="list">
                                     <li><span>Số lượng: </span> 3 người</li>
                                     <li><span>Diện tích: </span> 45 m2</li>
-                                    <li><span>View: </span>View biển</li>
-                                    <li><span>Gường ngủ: </span> 1</li>
                                 </ul>
                                 <hr>
                                 <div class="d-flex justify-content-between">
@@ -111,8 +109,6 @@
                                 <ul class="list">
                                     <li><span>Số lượng: </span> 3 người</li>
                                     <li><span>Diện tích: </span> 45 m2</li>
-                                    <li><span>View: </span>View biển</li>
-                                    <li><span>Gường ngủ: </span> 1</li>
                                 </ul>
                                 <hr>
                                 <div class="d-flex justify-content-between">
@@ -136,8 +132,6 @@
                                 <ul class="list">
                                     <li><span>Số lượng: </span> 5 người</li>
                                     <li><span>Diện tích: </span> 45 m2</li>
-                                    <li><span>View: </span>View biển</li>
-                                    <li><span>Gường ngủ: </span> 2</li>
                                 </ul>
                                 <hr>
                                 <div class="d-flex justify-content-between">
@@ -161,8 +155,6 @@
                                 <ul class="list">
                                     <li><span>Số lượng: </span> 5 người</li>
                                     <li><span>Diện tích: </span> 45 m2</li>
-                                    <li><span>View: </span>View biển</li>
-                                    <li><span>Gường ngủ: </span> 2</li>
                                 </ul>
                                 <hr>
                                 <div class="d-flex justify-content-between">
@@ -186,8 +178,6 @@
                                 <ul class="list">
                                     <li><span>Số lượng: </span> 6 người</li>
                                     <li><span>Diện tích: </span> 45 m2</li>
-                                    <li><span>View: </span>View biển</li>
-                                    <li><span>Gường ngủ: </span> 3</li>
                                 </ul>
                                 <hr>
                                 <div class="d-flex justify-content-between">
@@ -211,12 +201,12 @@
                                 <ul class="list">
                                     <li><span>Số lượng: </span> 5 người</li>
                                     <li><span>Diện tích: </span> 45 m2</li>
-                                    <li><span>View: </span>View biển</li>
-                                    <li><span>Gường ngủ: </span> 2</li>
                                 </ul>
                                 <hr>
                                 <div class="d-flex justify-content-between">
-                                    <button type="button" class="btn btn-primary">Chỉnh sửa</button>
+                                    <a href="edit-room.html">
+                                        <button type="button" class="btn btn-primary">Chỉnh sửa</button>
+                                    </a>
                                     <button type="button" class="btn btn-danger"  data-toggle="modal" data-target="#exampleModal"
                                     >Xóa</button>
                                 </div>
@@ -257,73 +247,79 @@
                 </div>
             </div>
             <div class="col-lg-3 sidebar">
-                <div class="sidebar-wrap bg-light ftco-animate">
-                    <h3 class="heading mb-4">Tìm kiếm</h3>
-                    <form action="#">
-                        <div class="fields">
-<!--                            <div class="form-group">-->
-<!--                                <input type="text" id="checkin_date" class="form-control checkin_date"-->
-<!--                                       placeholder="Check In Date">-->
-<!--                            </div>-->
-<!--                            <div class="form-group">-->
-<!--                                <input type="text" id="checkout_date" class="form-control checkout_date"-->
-<!--                                       placeholder="Check Out Date">-->
-<!--                            </div>-->
-                            <div class="form-group">
-                                <div class="select-wrap one-third">
-                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                    <select name="" id="room-type" class="form-control">
-                                        <option value="">Loại phòng</option>
-                                        <option value="">Room</option>
-                                        <option value="">House</option>
-                                        <option value="">Villa</option>
-                                    </select>
+                <div style="position: sticky;top: 100px!important;">
+                    <div class="my-5">
+                        <button class="btn btn-primary py-3 px-5">Thêm mới phòng</button>
+                    </div>
+                    <div class="sidebar-wrap bg-light ftco-animate">
+                        <h3 class="heading mb-4">Tìm kiếm</h3>
+                        <form action="#">
+                            <div class="fields">
+                                <!--                            <div class="form-group">-->
+                                <!--                                <input type="text" id="checkin_date" class="form-control checkin_date"-->
+                                <!--                                       placeholder="Check In Date">-->
+                                <!--                            </div>-->
+                                <!--                            <div class="form-group">-->
+                                <!--                                <input type="text" id="checkout_date" class="form-control checkout_date"-->
+                                <!--                                       placeholder="Check Out Date">-->
+                                <!--                            </div>-->
+                                <div class="form-group">
+                                    <div class="select-wrap one-third">
+                                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                        <select name="" id="room-type" class="form-control">
+                                            <option value="">Loại phòng</option>
+                                            <option value="">Room</option>
+                                            <option value="">House</option>
+                                            <option value="">Villa</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="select-wrap one-third">
+                                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                                        <select name="" id="quantity" class="form-control">
+                                            <option value="">Số người</option>
+                                            <option value="">1 người</option>
+                                            <option value="">2 người</option>
+                                            <option value="">3 người</option>
+                                            <option value="">4 người</option>
+                                            <option value="">5 người</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!--                            <div class="form-group">-->
+                                <!--                                <div class="select-wrap one-third">-->
+                                <!--                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>-->
+                                <!--                                    <select name="" id="" class="form-control">-->
+                                <!--                                        <option value="">0 Children</option>-->
+                                <!--                                        <option value="">1 Children</option>-->
+                                <!--                                        <option value="">2 Children</option>-->
+                                <!--                                        <option value="">3 Children</option>-->
+                                <!--                                        <option value="">4 Children</option>-->
+                                <!--                                        <option value="">5 Children</option>-->
+                                <!--                                        <option value="">6 Children</option>-->
+                                <!--                                    </select>-->
+                                <!--                                </div>-->
+                                <!--                            </div>-->
+                                <!--                            <div class="form-group">-->
+                                <!--                                <div class="range-slider">-->
+                                <!--		              		<span>-->
+                                <!--										    <input type="number" value="25000" min="0" max="120000"/>	- -->
+                                <!--										    <input type="number" value="50000" min="0" max="120000"/>-->
+                                <!--										  </span>-->
+                                <!--                                    <input value="1000" min="0" max="120000" step="500" type="range"/>-->
+                                <!--                                    <input value="50000" min="0" max="120000" step="500" type="range"/>-->
+                                <!--                                    </svg>-->
+                                <!--                                </div>-->
+                                <!--                            </div>-->
+                                <div class="form-group">
+                                    <input type="submit" value="Tìm kiếm" class="btn btn-primary py-3 px-5">
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="select-wrap one-third">
-                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                    <select name="" id="quantity" class="form-control">
-                                        <option value="">Số người</option>
-                                        <option value="">1 người</option>
-                                        <option value="">2 người</option>
-                                        <option value="">3 người</option>
-                                        <option value="">4 người</option>
-                                        <option value="">5 người</option>
-                                    </select>
-                                </div>
-                            </div>
-<!--                            <div class="form-group">-->
-<!--                                <div class="select-wrap one-third">-->
-<!--                                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>-->
-<!--                                    <select name="" id="" class="form-control">-->
-<!--                                        <option value="">0 Children</option>-->
-<!--                                        <option value="">1 Children</option>-->
-<!--                                        <option value="">2 Children</option>-->
-<!--                                        <option value="">3 Children</option>-->
-<!--                                        <option value="">4 Children</option>-->
-<!--                                        <option value="">5 Children</option>-->
-<!--                                        <option value="">6 Children</option>-->
-<!--                                    </select>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                            <div class="form-group">-->
-<!--                                <div class="range-slider">-->
-<!--		              		<span>-->
-<!--										    <input type="number" value="25000" min="0" max="120000"/>	- -->
-<!--										    <input type="number" value="50000" min="0" max="120000"/>-->
-<!--										  </span>-->
-<!--                                    <input value="1000" min="0" max="120000" step="500" type="range"/>-->
-<!--                                    <input value="50000" min="0" max="120000" step="500" type="range"/>-->
-<!--                                    </svg>-->
-<!--                                </div>-->
-<!--                            </div>-->
-                            <div class="form-group">
-                                <input type="submit" value="Tìm kiếm" class="btn btn-primary py-3 px-5">
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
+
 <!--                <div class="sidebar-wrap bg-light ftco-animate">-->
 <!--                    <h3 class="heading mb-4">Star Rating</h3>-->
 <!--                    <form method="post" class="star-rating">-->

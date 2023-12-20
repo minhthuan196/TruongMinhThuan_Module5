@@ -11,7 +11,7 @@ function TodoApp() {
 
     const handleAddItem = () => {
         if (newData.trim() !== '') {
-            setTodoList([...todoList, newData]);
+            setTodoList(prevTodoList=>[...prevTodoList, newData]);
             setNewData('');
         }
     }

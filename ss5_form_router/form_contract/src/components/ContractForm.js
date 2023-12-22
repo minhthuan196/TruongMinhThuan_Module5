@@ -36,7 +36,7 @@ export default function SignIn() {
         },
         validationSchema:SignupSchema,
         onSubmit: values => {
-            alert("Add contact successfully!!!");
+            alert(JSON.stringify(values, null, 2));
         },
     });
 

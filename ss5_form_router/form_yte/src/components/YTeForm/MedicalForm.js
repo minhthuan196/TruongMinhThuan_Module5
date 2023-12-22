@@ -12,6 +12,8 @@ import {useFormik} from "formik";
 import * as Yup from 'yup';
 import Checkbox from '@mui/material/Checkbox';
 import {FormControlLabel, FormLabel, Radio, RadioGroup} from "@mui/material";
+import FormGroup from '@mui/material/FormGroup';
+
 
 const defaultTheme = createTheme();
 const SignupSchema = Yup.object().shape({
@@ -38,18 +40,23 @@ export default function MedicalForm() {
             birthDay: '',
             national: '',
             company: '',
+            gender: '',
             parts: '',
             city: '',
             district: '',
             ward: '',
+            insurance: '',
             address: '',
             phone: '',
             email: '',
+            checkDate14First: '',
+            checkDate14Two: [],
+            checkDate14Three: [],
 
         },
         validationSchema: SignupSchema,
         onSubmit: values => {
-            alert("Khai báo thành công");
+            alert(JSON.stringify(values, null, 2));
         },
     });
 
@@ -119,8 +126,8 @@ export default function MedicalForm() {
                             aria-labelledby="demo-row-radio-buttons-group-label"
                             name="row-radio-buttons-group"
                         >
-                            <FormControlLabel value="female" control={<Radio/>} label="Nam"/>
-                            <FormControlLabel value="male" control={<Radio/>} label="Nữ"/>
+                            <FormControlLabel  control={<Radio onChange={formik.handleChange} value={formik.values.gender}/>} label="Nam"/>
+                            <FormControlLabel  control={<Radio onChange={formik.handleChange} value={formik.values.gender}/>} label="Nữ"/>
                         </RadioGroup>
                         <TextField
                             margin="normal"
@@ -164,7 +171,7 @@ export default function MedicalForm() {
                             error={formik.touched && formik.errors.parts}
                             helperText={formik.errors.parts}
                         />
-                        <FormControlLabel control={<Checkbox />} label="Có thể bảo hiểm y tế"/>
+                        <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.insurance}/>} label="Có thể bảo hiểm y tế"/>
                         <h2>Đia chỉ liên lạc tại Việt Nam</h2>
                         <TextField
                             margin="normal"
@@ -254,19 +261,29 @@ export default function MedicalForm() {
                             Anh chị có đến quốc gia/vùng lãnh thổ nào( Có thể đi qua nhiều quốc gia)</h3>
                         <TextField
                             margin="normal"
+                            name="checkDate14First"
+                            type="text"
+                            id="checkDate14First"
+                            autoComplete="checkDate14First"
+                            value={formik.values.checkDate14First}
+                            onChange={formik.handleChange}
                             fullWidth
                         />
-                        <h3>Trong 14 ngày qua, Anh chị có thấy xuất hiện dấu hiệu nào sau đây không ?</h3>
-                        <FormControlLabel control={<Checkbox/>} label="Sốt"/>
-                        <FormControlLabel control={<Checkbox/>} label="Ho"/>
-                        <FormControlLabel control={<Checkbox/>} label="Khó thở"/>
-                        <FormControlLabel control={<Checkbox/>} label="Viêm phổi"/>
-                        <FormControlLabel control={<Checkbox/>} label="Đau họng"/>
-                        <FormControlLabel control={<Checkbox/>} label="Mệt mõi"/>
-                        <h3>Trong 14 ngày qua, Anh chị có thấy xuất hiện dấu hiệu nào sau đây không ?</h3>
-                        <FormControlLabel control={<Checkbox/>} label="Người bệnh hoặc nghi ngờ, mắc bệnh COVIC-19"/>
-                        <FormControlLabel control={<Checkbox/>} label="Người bệnh từ nước bệnh COVIC-19"/>
-                        <FormControlLabel control={<Checkbox/>} label="Người có  biêu hiện(Sốt,ho,khó thở,viêm phổi)"/>
+                        <FormGroup>
+                            <h3>Trong 14 ngày qua, Anh chị có thấy xuất hiện dấu hiệu nào sau đây không ?</h3>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Sốt"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Ho"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Khó thở"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Viêm phổi"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Đau họng"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Mệt mõi"/>
+                        </FormGroup>
+                        <FormGroup>
+                            <h3>Trong 14 ngày qua, Anh chị có thấy xuất hiện dấu hiệu nào sau đây không ?</h3>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Three}/>} label="Người bệnh hoặc nghi ngờ, mắc bệnh COVIC-19"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Three}/>} label="Người bệnh từ nước bệnh COVIC-19"/>
+                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Three}/>} label="Người có  biêu hiện(Sốt,ho,khó thở,viêm phổi)"/>
+                        </FormGroup>
                         <Button
                             type="submit"
                             fullWidth

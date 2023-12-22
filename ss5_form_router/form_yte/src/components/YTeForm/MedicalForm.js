@@ -17,18 +17,18 @@ import FormGroup from '@mui/material/FormGroup';
 
 const defaultTheme = createTheme();
 const SignupSchema = Yup.object().shape({
-    name: Yup.string().required('Required'),
-    birthDay: Yup.number().min(1991, '>1990'),
-    national: Yup.string().required('Required'),
-    company: Yup.string().required('Required'),
-    parts: Yup.string().required('Required'),
-    city: Yup.string().required('Required'),
-    district: Yup.string().required('Required'),
-    ward: Yup.string().required('Required'),
-    address: Yup.string().required('Required'),
-    phone: Yup.string().required('Required'),
-    email: Yup.string().email('Invalid email').required('Required'),
-    cmnd: Yup.string().required('Required'),
+    name: Yup.string().required('Tên không được để trống'),
+    birthDay: Yup.number().min(1991, 'Năm sinh trên 1990'),
+    national: Yup.string().required('Quốc gia không được để trống'),
+    company: Yup.string().required('Công ty làm việc không được để trống '),
+    parts: Yup.string().required('Bộ phận làm việc không được để trống'),
+    city: Yup.string().required('Tỉnh thành không được để trống'),
+    district: Yup.string().required('Quận/Huyên không được để trống'),
+    ward: Yup.string().required('Phường/Xã không được để trống'),
+    address: Yup.string().required('Số nhà không được để trống'),
+    phone: Yup.string().required('Số điện thoại không được để trống'),
+    email: Yup.string().email('Email không đúng định dạng').required('Email không được để trống'),
+    cmnd: Yup.string().required('CMND không được để trống'),
 });
 
 export default function MedicalForm() {

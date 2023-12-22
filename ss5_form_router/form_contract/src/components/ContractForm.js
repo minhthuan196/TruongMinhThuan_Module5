@@ -13,16 +13,10 @@ import * as Yup from 'yup';
 
 const defaultTheme = createTheme();
 const SignupSchema = Yup.object().shape({
-    name: Yup.string()
-        .min(2, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required'),
-    message: Yup.string()
-        .min(1, 'Too Short!')
-        .max(50, 'Too Long!')
-        .required('Required'),
-    phone: Yup.string().required('Required'),
-    email: Yup.string().email('Invalid email').required('Required'),
+    name: Yup.string().required('Name không được bỏ trống'),
+    message: Yup.string().required('Message không được bỏ trống'),
+    phone: Yup.string().required('Phone không được bỏ trống'),
+    email: Yup.string().email('Email không đúng định dạng').required('email không được để trống'),
 });
 
 export default function SignIn() {

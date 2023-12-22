@@ -126,8 +126,18 @@ export default function MedicalForm() {
                             aria-labelledby="demo-row-radio-buttons-group-label"
                             name="row-radio-buttons-group"
                         >
-                            <FormControlLabel  control={<Radio onChange={formik.handleChange} value={formik.values.gender}/>} label="Nam"/>
-                            <FormControlLabel  control={<Radio onChange={formik.handleChange} value={formik.values.gender}/>} label="Nữ"/>
+                            <FormControlLabel  control={<Radio
+                                onChange={formik.handleChange}
+                                value="Nam"
+                                id="gender"
+                                name ="gender"
+                            />} label="Nam"/>
+                            <FormControlLabel  control={<Radio
+                                onChange={formik.handleChange}
+                                value="Nữ"
+                                id="gender"
+                                name="gender"
+                            />} label="Nữ"/>
                         </RadioGroup>
                         <TextField
                             margin="normal"
@@ -171,7 +181,12 @@ export default function MedicalForm() {
                             error={formik.touched && formik.errors.parts}
                             helperText={formik.errors.parts}
                         />
-                        <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.insurance}/>} label="Có thể bảo hiểm y tế"/>
+                        <FormControlLabel control={<Checkbox
+                            onChange={formik.handleChange}
+                            value="Có thể bảo hiểm y tế"
+                            id ="insurance"
+                            name ="insurance"
+                        />} label="Có thể bảo hiểm y tế"/>
                         <h2>Đia chỉ liên lạc tại Việt Nam</h2>
                         <TextField
                             margin="normal"
@@ -271,18 +286,63 @@ export default function MedicalForm() {
                         />
                         <FormGroup>
                             <h3>Trong 14 ngày qua, Anh chị có thấy xuất hiện dấu hiệu nào sau đây không ?</h3>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Sốt"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Ho"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Khó thở"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Viêm phổi"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Đau họng"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Two}/>} label="Mệt mõi"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Sốt"
+                                id ="checkDate14Two"
+                                name ="checkDate14Two"
+                            />} label="Sốt"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Ho"
+                                id ="checkDate14Two"
+                                name ="checkDate14Two"
+                            />} label="Ho"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Khó thở"
+                                id ="checkDate14Two"
+                                name ="checkDate14Two"
+                            />} label="Khó thở"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Viêm phổi"
+                                id ="checkDate14Two"
+                                name ="checkDate14Two"
+                            />} label="Viêm phổi"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Đau họng"
+                                id ="checkDate14Two"
+                                name ="checkDate14Two"
+                            />} label="Đau họng"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Mệt mõi"
+                                id ="checkDate14Two"
+                                name ="checkDate14Two"
+                            />} label="Mệt mõi"/>
                         </FormGroup>
                         <FormGroup>
                             <h3>Trong 14 ngày qua, Anh chị có thấy xuất hiện dấu hiệu nào sau đây không ?</h3>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Three}/>} label="Người bệnh hoặc nghi ngờ, mắc bệnh COVIC-19"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Three}/>} label="Người bệnh từ nước bệnh COVIC-19"/>
-                            <FormControlLabel control={<Checkbox onChange={formik.handleChange} value={formik.values.checkDate14Three}/>} label="Người có  biêu hiện(Sốt,ho,khó thở,viêm phổi)"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Người bệnh hoặc nghi ngờ, mắc bệnh COVIC-19"
+                                id ="checkDate14Three"
+                                name ="checkDate14Three"
+                            />} label="Người bệnh hoặc nghi ngờ, mắc bệnh COVIC-19"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Người bệnh từ nước bệnh COVIC-19"
+                                id ="checkDate14Three"
+                                name ="checkDate14Three"
+                            />} label="Người bệnh từ nước bệnh COVIC-19"/>
+                            <FormControlLabel control={<Checkbox
+                                onChange={formik.handleChange}
+                                value="Người có  biêu hiện(Sốt,ho,khó thở,viêm phổi)"
+                                id ="checkDate14Three"
+                                name ="checkDate14Three"
+                            />} label="Người có  biêu hiện(Sốt,ho,khó thở,viêm phổi)"/>
                         </FormGroup>
                         <Button
                             type="submit"

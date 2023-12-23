@@ -12,9 +12,6 @@ function Covid() {
                 setCovid(response.data);
             })
     }, []);
-    if (!covid) {
-        return null;
-    }
     return (
         <>
             <table>

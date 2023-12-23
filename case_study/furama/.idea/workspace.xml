@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dc2c9c9-856e-475a-b7f9-d81aa2399952" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/HeaderHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/css/mixins/_text-hide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/jquery.timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/css/_ionicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/ionicons/fonts/ionicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/open-iconic/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/open-iconic/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/open-iconic/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/open-iconic/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/fonts/open-iconic/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/bg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/image_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/insta-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/insta-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/insta-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/insta-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/insta-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/menu-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/room-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/room-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/room-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/room-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/room-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/room-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/staff-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/staff-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/staff-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/images/staff-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery.animateNumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/js/scrollax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderHome/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Service/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/bootstrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/bootstrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/css/mixins/_text-hide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/jquery.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/open-iconic-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/flaticon/license/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/css/_ionicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/ionicons/fonts/ionicons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/open-iconic/open-iconic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/open-iconic/open-iconic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/open-iconic/open-iconic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/open-iconic/open-iconic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fonts/open-iconic/open-iconic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/image_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/insta-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/insta-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/insta-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/insta-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/insta-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/menu-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/room-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/room-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/room-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/staff-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/staff-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/staff-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/images/staff-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery.animateNumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/js/scrollax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../furama_resort/furama_resort/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../furama_resort/furama_resort/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss6-nextJs/covid_19/src/app/covid/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6-nextJs/covid_19/src/app/covid/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2ZtmHTJuhMzsMDSO5velswiz3V7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Codegym/module5/case_study/furama/src/components/HeaderHome",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codegym\module5\case_study\furama\src\components\HeaderHome" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dc2c9c9-856e-475a-b7f9-d81aa2399952" name="Changes" comment="" />
+      <created>1703249661629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703249661629</updated>
+      <workItem from="1703249663238" duration="5660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

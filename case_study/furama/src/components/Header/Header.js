@@ -147,29 +147,130 @@ function Header() {
                     </div>
                 </div>
             </section>
-            <section className="ftco-section ftc-no-pb ftc-no-pt">
+            {/*<section className="ftco-section ftc-no-pb ftc-no-pt">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row">*/}
+            {/*            <div className="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style={{ backgroundImage: 'url("https://furamavietnam.com/wp-content/uploads/2018/07/Vietnam_Danang_Furama_Resort_Exterior_Beach.jpg")' }}>*/}
+            {/*                <a href="https://www.youtube.com/watch?v=Z6_JZ8Ao6-c" className="icon popup-vimeo d-flex justify-content-center align-items-center">*/}
+            {/*                    <span className="icon-play"></span>*/}
+            {/*                </a>*/}
+            {/*            </div>*/}
+            {/*            <div className="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">*/}
+            {/*                <div className="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">*/}
+            {/*                    <div className="ml-md-0">*/}
+            {/*                        <span className="subheading">Chào mừng đến Furama resort</span>*/}
+            {/*                        <h3 className="mb-4">Chào mừng đến resort chúng tôi</h3>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*                <div className="pb-md-5">*/}
+            {/*                    <p>Hướng ra bãi biển Đà Nẵng trải dài cát trắng, Furama Resort Đà Nẵng là cửa ngõ đến với 3 di sản văn hoá thế giới: Hội An (20 phút), Mỹ Sơn (90 phút) và Huế (2 tiếng. 196 phòng hạng sang cùng với 70 căn biệt thự từ hai đến bốn phòng ngủ có hồ bơi riêng đều được trang trí trang nhã,*/}
+            {/*                        theo phong cách thiết kế truyền thống của Việt Nam và kiến trúc thuộc địa của Pháp, biến Furama thành khu nghỉ dưỡng danh giá nhất tại Việt Nam – vinh dự được đón tiếp nhiều người nổi tiếng, giới hoàng gia, chính khách, ngôi sao điện ảnh và các nhà lãnh đạo kinh doanh quốc tế.</p>*/}
+            {/*                    <ul className="ftco-social d-flex">*/}
+            {/*                        <li className="ftco-animate"><a href="https://www.youtube.com/user/furamaresortvietnam/featured" target="_blank"><span className="icon-youtube"></span></a></li>*/}
+            {/*                        <li className="ftco-animate"><a href="https://www.facebook.com/furamaresort/" target="_blank"><span className="icon-facebook"></span></a></li>*/}
+            {/*                        <li className="ftco-animate"><a href="https://www.instagram.com/furama_resort_and_villas/" target="_blank"><span className="icon-instagram"></span></a></li>*/}
+            {/*                    </ul>*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            <section className="ftco-section bg-light">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style={{ backgroundImage: 'url("https://furamavietnam.com/wp-content/uploads/2018/07/Vietnam_Danang_Furama_Resort_Exterior_Beach.jpg")' }}>
-                            <a href="https://www.youtube.com/watch?v=Z6_JZ8Ao6-c" className="icon popup-vimeo d-flex justify-content-center align-items-center">
-                                <span className="icon-play"></span>
-                            </a>
+                    <div className="row justify-content-center mb-5 pb-3">
+                        <div className="col-md-7 heading-section text-center ftco-animate">
+                            <h2 className="mb-4">Các loại phòng</h2>
                         </div>
-                        <div className="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
-                            <div className="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">
-                                <div className="ml-md-0">
-                                    <span className="subheading">Chào mừng đến Furama resort</span>
-                                    <h3 className="mb-4">Chào mừng đến resort chúng tôi</h3>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm col-md-6 col-lg-4 ftco-animate">
+                            <div className="room">
+                                <a  className="img d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/room-1.jpg)'}}>
+                                    <div className="icon d-flex justify-content-center align-items-center">
+                                        <span className="icon-search2"></span>
+                                    </div>
+                                </a>
+                                <div className="text p-3 text-center">
+                                    <h3 className="mb-3"><a >Room</a></h3>
+                                    <p><span className="price mr-2">100.000 vnđ</span> <span className="per">1 đêm</span></p>
+                                    <hr/>
+                                        <p className="pt-1"><a  className="btn-custom">Xem chi tiết<span className="icon-long-arrow-right"></span></a></p>
                                 </div>
                             </div>
-                            <div className="pb-md-5">
-                                <p>Hướng ra bãi biển Đà Nẵng trải dài cát trắng, Furama Resort Đà Nẵng là cửa ngõ đến với 3 di sản văn hoá thế giới: Hội An (20 phút), Mỹ Sơn (90 phút) và Huế (2 tiếng. 196 phòng hạng sang cùng với 70 căn biệt thự từ hai đến bốn phòng ngủ có hồ bơi riêng đều được trang trí trang nhã,
-                                    theo phong cách thiết kế truyền thống của Việt Nam và kiến trúc thuộc địa của Pháp, biến Furama thành khu nghỉ dưỡng danh giá nhất tại Việt Nam – vinh dự được đón tiếp nhiều người nổi tiếng, giới hoàng gia, chính khách, ngôi sao điện ảnh và các nhà lãnh đạo kinh doanh quốc tế.</p>
-                                <ul className="ftco-social d-flex">
-                                    <li className="ftco-animate"><a href="https://www.youtube.com/user/furamaresortvietnam/featured" target="_blank"><span className="icon-youtube"></span></a></li>
-                                    <li className="ftco-animate"><a href="https://www.facebook.com/furamaresort/" target="_blank"><span className="icon-facebook"></span></a></li>
-                                    <li className="ftco-animate"><a href="https://www.instagram.com/furama_resort_and_villas/" target="_blank"><span className="icon-instagram"></span></a></li>
-                                </ul>
+                        </div>
+                        <div className="col-sm col-md-6 col-lg-4 ftco-animate">
+                            <div className="room">
+                                <a  className="img d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/room-2.jpg)'}}>
+                                    <div className="icon d-flex justify-content-center align-items-center">
+                                        <span className="icon-search2"></span>
+                                    </div>
+                                </a>
+                                <div className="text p-3 text-center">
+                                    <h3 className="mb-3"><a >House</a></h3>
+                                    <p><span className="price mr-2">100.000 vnđ</span> <span className="per">1 đêm</span></p>
+                                    <hr/>
+                                        <p className="pt-1"><a  className="btn-custom">Xem chi tiết<span className="icon-long-arrow-right"></span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm col-md-6 col-lg-4 ftco-animate">
+                            <div className="room">
+                                <a  className="img d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/room-3.jpg)'}}>
+                                    <div className="icon d-flex justify-content-center align-items-center">
+                                        <span className="icon-search2"></span>
+                                    </div>
+                                </a>
+                                <div className="text p-3 text-center">
+                                    <h3 className="mb-3"><a >Villa</a></h3>
+                                    <p><span className="price mr-2">100.000 vnđ</span> <span className="per">1 đêm</span></p>
+                                    <hr/>
+                                        <p className="pt-1"><a  className="btn-custom">Xem chi tiết<span className="icon-long-arrow-right"></span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm col-md-6 col-lg-4 ftco-animate">
+                            <div className="room">
+                                <a  className="img d-flex justify-content-center align-items-center"style={{backgroundImage: 'url(images/room-4.jpg)'}}>
+                                    <div className="icon d-flex justify-content-center align-items-center">
+                                        <span className="icon-search2"></span>
+                                    </div>
+                                </a>
+                                <div className="text p-3 text-center">
+                                    <h3 className="mb-3"><a >Room</a></h3>
+                                    <p><span className="price mr-2">100.000 vnđ</span> <span className="per">1 đêm</span></p>
+                                    <hr/>
+                                        <p className="pt-1"><a  className="btn-custom">Xem chi tiết<span className="icon-long-arrow-right"></span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm col-md-6 col-lg-4 ftco-animate">
+                            <div className="room">
+                                <a  className="img d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/room-5.jpg)'}}>
+                                    <div className="icon d-flex justify-content-center align-items-center">
+                                        <span className="icon-search2"></span>
+                                    </div>
+                                </a>
+                                <div className="text p-3 text-center">
+                                    <h3 className="mb-3"><a >House</a></h3>
+                                    <p><span className="price mr-2">100.000 vnđ</span> <span className="per">1 đêm</span></p>
+                                    <hr/>
+                                        <p className="pt-1"><a  className="btn-custom">Xem chi tiết<span className="icon-long-arrow-right"></span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm col-md-6 col-lg-4 ftco-animate">
+                            <div className="room">
+                                <a className="img d-flex justify-content-center align-items-center" style={{backgroundImage: 'url(images/room-6.jpg)'}}>
+                                    <div className="icon d-flex justify-content-center align-items-center">
+                                        <span className="icon-search2"></span>
+                                    </div>
+                                </a>
+                                <div className="text p-3 text-center">
+                                    <h3 className="mb-3"><a >Villa</a></h3>
+                                    <p><span className="price mr-2">100.000 vnđ</span> <span className="per">1 đêm</span></p>
+                                    <hr/>
+                                        <p className="pt-1"><a  className="btn-custom">Xem chi tiết<span className="icon-long-arrow-right"></span></a></p>
+                                </div>
                             </div>
                         </div>
                     </div>

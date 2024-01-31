@@ -15,7 +15,6 @@ function UserList() {
     }
     const handleGetUser=()=>{
         dispatch(getAllUser())
-
     }
     // useEffect(() => {
     //     dispatch(getAllUser())

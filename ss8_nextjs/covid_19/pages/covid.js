@@ -1,20 +1,8 @@
-"use client"
 import axios from "axios";
-import {useEffect, useState} from "react";
 
-function Covid() {
-    const [covid, setCovid] = useState([]);
-
-    useEffect(() => {
-        axios.get('http://localhost:8080/covids')
-            .then((response) => {
-                console.log(response);
-                setCovid(response.data);
-            })
-    }, []);
+export default function covidList({covids}) {
     return (
         <>
-            <h1>Covid List</h1>
             <table>
                 <thead>
                 <tr>
@@ -26,7 +14,7 @@ function Covid() {
                 </tr>
                 </thead>
                 <tbody>
-                {covid.map(data => (
+                {covids.map(data => (
                     <tr key={data.id}>
                         <td>{data.Date}</td>
                         <td>{data.Confirmed}</td>
@@ -40,5 +28,11 @@ function Covid() {
         </>
     )
 }
-
-export default Covid;
+export const getStaticProps = async () => {
+    const result = await axios.get('http://localhost:8080/covids');
+    return {
+        props: {
+            covids: result.data
+        }
+    }
+}

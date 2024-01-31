@@ -1,0 +1,44 @@
+{
+  "covids": [
+    {
+      "id": 1,
+      "Confirmed": 0,
+      "Deaths": 0,
+      "Recovered": 0,
+      "Active": 0,
+      "Date": "2020-01-22"
+    },
+    {
+      "id": 2,
+      "Confirmed": 0,
+      "Deaths": 0,
+      "Recovered": 0,
+      "Active": 0,
+      "Date": "2020-01-23"
+    },
+    {
+      "id": 3,
+      "Confirmed": 0,
+      "Deaths": 0,
+      "Recovered": 0,
+      "Active": 0,
+      "Date": "2020-01-24"
+    },
+    {
+      "id": 4,
+      "Confirmed": 0,
+      "Deaths": 0,
+      "Recovered": 0,
+      "Active": 0,
+      "Date": "2020-01-25"
+    },
+    {
+      "id": 5,
+      "Confirmed": 0,
+      "Deaths": 0,
+      "Recovered": 0,
+      "Active": 0,
+      "Date": "2020-01-26"
+    }
+  ]
+}
